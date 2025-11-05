@@ -109,6 +109,7 @@ func init() {
 	entCmdFlags.StringVarP(&gogen.VarStringSchema, "schema", "c")
 	entCmdFlags.StringVarP(&gogen.VarStringRoutePrefix, "route_prefix", "f")
 	entCmdFlags.StringVarP(&gogen.VarStringOutput, "output", "o")
+	entCmdFlags.StringVarP(&gogen.VarStringAubApiDir, "sub_api_dir", "d")
 	entCmdFlags.StringVarP(&gogen.VarStringAPIServiceName, "api_service_name", "a")
 	entCmdFlags.StringVarPWithDefaultValue(&gogen.VarStringStyle, "style", "s", config.DefaultFormat)
 	entCmdFlags.StringVarP(&gogen.VarStringModelName, "model", "m")

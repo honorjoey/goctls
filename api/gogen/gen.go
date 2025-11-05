@@ -66,6 +66,8 @@ var (
 	VarIntSearchKeyNum int
 	// VarStringOutput describes the output.
 	VarStringOutput string
+	// VarStringAubApiDir describes the sub api dir.
+	VarStringAubApiDir string
 	// VarStringRpcName describes the rpc name in service context
 	VarStringRpcName string
 	// VarStringGrpcPbPackage describes the grpc package
@@ -415,6 +417,7 @@ func GenCRUDLogicByEnt(_ *cobra.Command, _ []string) error {
 	params := &ent.GenEntLogicContext{
 		Schema:           VarStringSchema,
 		Output:           VarStringOutput,
+		SubApiDir:        VarStringAubApiDir,
 		ServiceName:      VarStringAPIServiceName,
 		Style:            VarStringStyle,
 		ModelName:        VarStringModelName,

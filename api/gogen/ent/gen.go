@@ -53,6 +53,7 @@ type GenEntLogicContext struct {
 	Schema           string
 	Output           string
 	ServiceName      string
+	SubApiDir        string
 	Style            string
 	ModelName        string
 	SearchKeyNum     int
@@ -95,6 +96,12 @@ func genEntLogic(g *GenEntLogicContext) error {
 		return err
 	}
 
+	subApiDir := g.SubApiDir
+	if subApiDir == "" {
+		subApiDir = g.ServiceName
+	}
+	g.SubApiDir = subApiDir
+
 	logicDir := path.Join(outputDir, "internal/logic")
 
 	schemas, err := entc.LoadGraph(g.Schema, &gen.Config{})
@@ -102,7 +109,7 @@ func genEntLogic(g *GenEntLogicContext) error {
 		return err
 	}
 
-	workDir, err := filepath.Abs("./")
+	workDir, err := filepath.Abs(outputDir)
 	if err != nil {
 		return err
 	}
@@ -159,12 +166,12 @@ func genEntLogic(g *GenEntLogicContext) error {
 				return err
 			}
 
-			err = pathx.MkdirIfNotExist(filepath.Join(workDir, "desc", strings.ToLower(genCtx.ServiceName)))
+			err = pathx.MkdirIfNotExist(filepath.Join(workDir, "desc", strings.ToLower(genCtx.SubApiDir)))
 			if err != nil {
 				return err
 			}
 
-			apiFilePath := filepath.Join(workDir, "desc", fmt.Sprintf("%s/%s.api", strings.ToLower(genCtx.ServiceName),
+			apiFilePath := filepath.Join(workDir, "desc", fmt.Sprintf("%s/%s.api", strings.ToLower(genCtx.SubApiDir),
 				strcase.ToSnake(genCtx.ModelName)))
 
 			if pathx.FileExists(apiFilePath) && !genCtx.Overwrite {
@@ -185,7 +192,7 @@ func genEntLogic(g *GenEntLogicContext) error {
 
 			if !strings.Contains(allApiString, fmt.Sprintf("%s.api", strcase.ToSnake(genCtx.ModelName))) {
 				allApiString += fmt.Sprintf("\nimport \"%s\"", fmt.Sprintf("./%s/%s.api",
-					strings.ToLower(genCtx.ServiceName),
+					strings.ToLower(genCtx.SubApiDir),
 					strcase.ToSnake(genCtx.ModelName)))
 			}
 
