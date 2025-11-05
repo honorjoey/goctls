@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/suyuan32/goctls/pkg/parser/api/token"
-	"github.com/suyuan32/goctls/util/pathx"
+	"github.com/honorjoey/goctls/pkg/parser/api/token"
+	"github.com/honorjoey/goctls/util/pathx"
 )
 
 const (

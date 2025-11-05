@@ -7,9 +7,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/suyuan32/goctls/pkg/parser/api/ast"
-	"github.com/suyuan32/goctls/pkg/parser/api/scanner"
-	"github.com/suyuan32/goctls/pkg/parser/api/token"
+	"github.com/honorjoey/goctls/pkg/parser/api/ast"
+	"github.com/honorjoey/goctls/pkg/parser/api/scanner"
+	"github.com/honorjoey/goctls/pkg/parser/api/token"
 )
 
 const (

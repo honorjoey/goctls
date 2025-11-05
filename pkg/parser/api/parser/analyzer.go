@@ -5,11 +5,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/suyuan32/goctls/api/spec"
-	"github.com/suyuan32/goctls/pkg/parser/api/ast"
-	"github.com/suyuan32/goctls/pkg/parser/api/importstack"
-	"github.com/suyuan32/goctls/pkg/parser/api/placeholder"
-	"github.com/suyuan32/goctls/pkg/parser/api/token"
+	"github.com/honorjoey/goctls/api/spec"
+	"github.com/honorjoey/goctls/pkg/parser/api/ast"
+	"github.com/honorjoey/goctls/pkg/parser/api/importstack"
+	"github.com/honorjoey/goctls/pkg/parser/api/placeholder"
+	"github.com/honorjoey/goctls/pkg/parser/api/token"
 
 	"github.com/zeromicro/go-zero/core/lang"
 )

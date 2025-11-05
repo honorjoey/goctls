@@ -25,11 +25,11 @@ import (
 	"github.com/duke-git/lancet/v2/fileutil"
 	"github.com/pkg/errors"
 
-	"github.com/suyuan32/goctls/util/format"
+	"github.com/honorjoey/goctls/util/format"
 
 	"github.com/iancoleman/strcase"
 
-	"github.com/suyuan32/goctls/util/console"
+	"github.com/honorjoey/goctls/util/console"
 )
 
 //go:embed other.tpl

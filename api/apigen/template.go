@@ -3,7 +3,7 @@ package apigen
 import (
 	"fmt"
 
-	"github.com/suyuan32/goctls/util/pathx"
+	"github.com/honorjoey/goctls/util/pathx"
 )
 
 const (

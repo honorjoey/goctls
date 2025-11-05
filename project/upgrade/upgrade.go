@@ -20,9 +20,9 @@ import (
 	"os"
 
 	"github.com/gookit/color"
+	conf "github.com/honorjoey/goctls/config"
+	"github.com/honorjoey/goctls/rpc/execx"
 	"github.com/spf13/cobra"
-	conf "github.com/suyuan32/goctls/config"
-	"github.com/suyuan32/goctls/rpc/execx"
 )
 
 var (

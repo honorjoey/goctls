@@ -1,6 +1,6 @@
 package ast
 
-import "github.com/suyuan32/goctls/pkg/parser/api/token"
+import "github.com/honorjoey/goctls/pkg/parser/api/token"
 
 // InfoStmt is the info statement.
 type InfoStmt struct {

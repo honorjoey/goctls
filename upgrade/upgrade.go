@@ -4,14 +4,14 @@ import (
 	"fmt"
 
 	"github.com/gookit/color"
+	"github.com/honorjoey/goctls/rpc/execx"
 	"github.com/spf13/cobra"
-	"github.com/suyuan32/goctls/rpc/execx"
 )
 
 // upgrade gets the latest goctl by
-// go install github.com/suyuan32/goctls@latest
+// go install github.com/honorjoey/goctls@latest
 func upgrade(_ *cobra.Command, _ []string) error {
-	cmd := `go install github.com/suyuan32/goctls@latest`
+	cmd := `go install github.com/honorjoey/goctls@latest`
 	info, err := execx.Run(cmd, "")
 	if err != nil {
 		return err

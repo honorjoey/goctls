@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/suyuan32/goctls/extra/ent/importschema/mux"
+	"github.com/honorjoey/goctls/extra/ent/importschema/mux"
 
 	"ariga.io/atlas/sql/schema"
 

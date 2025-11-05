@@ -24,15 +24,15 @@ import (
 
 	"github.com/duke-git/lancet/v2/fileutil"
 
-	"github.com/suyuan32/goctls/util/ctx"
+	"github.com/honorjoey/goctls/util/ctx"
 
 	"github.com/gookit/color"
 	"github.com/jedib0t/go-pretty/v6/table"
 	"github.com/spf13/cobra"
 
-	"github.com/suyuan32/goctls/util/console"
-	"github.com/suyuan32/goctls/util/env"
-	"github.com/suyuan32/goctls/util/pathx"
+	"github.com/honorjoey/goctls/util/console"
+	"github.com/honorjoey/goctls/util/env"
+	"github.com/honorjoey/goctls/util/pathx"
 )
 
 var (

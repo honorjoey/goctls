@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/suyuan32/goctls/util"
-	"github.com/suyuan32/goctls/util/pathx"
-	"github.com/suyuan32/goctls/util/stringx"
+	"github.com/honorjoey/goctls/util"
+	"github.com/honorjoey/goctls/util/pathx"
+	"github.com/honorjoey/goctls/util/stringx"
 )
 
 //go:embed rpc.tpl

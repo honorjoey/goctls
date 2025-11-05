@@ -6,11 +6,11 @@ import (
 
 	"github.com/iancoleman/strcase"
 
-	conf "github.com/suyuan32/goctls/config"
-	"github.com/suyuan32/goctls/rpc/parser"
-	"github.com/suyuan32/goctls/util"
-	"github.com/suyuan32/goctls/util/format"
-	"github.com/suyuan32/goctls/util/pathx"
+	conf "github.com/honorjoey/goctls/config"
+	"github.com/honorjoey/goctls/rpc/parser"
+	"github.com/honorjoey/goctls/util"
+	"github.com/honorjoey/goctls/util/format"
+	"github.com/honorjoey/goctls/util/pathx"
 )
 
 //go:embed enttx.tpl

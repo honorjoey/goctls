@@ -4,8 +4,8 @@ import (
 	_ "embed"
 	"path/filepath"
 
-	"github.com/suyuan32/goctls/util/format"
-	"github.com/suyuan32/goctls/util/pathx"
+	"github.com/honorjoey/goctls/util/format"
+	"github.com/honorjoey/goctls/util/pathx"
 )
 
 //go:embed dberrorhandler.tpl

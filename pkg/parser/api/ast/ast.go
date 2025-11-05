@@ -5,8 +5,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/suyuan32/goctls/pkg/parser/api/token"
-	"github.com/suyuan32/goctls/util"
+	"github.com/honorjoey/goctls/pkg/parser/api/token"
+	"github.com/honorjoey/goctls/util"
 )
 
 // Node represents a node in the AST.

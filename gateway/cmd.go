@@ -9,10 +9,10 @@ import (
 
 	"github.com/duke-git/lancet/v2/fileutil"
 
+	"github.com/honorjoey/goctls/internal/cobrax"
+	"github.com/honorjoey/goctls/util/ctx"
+	"github.com/honorjoey/goctls/util/pathx"
 	"github.com/spf13/cobra"
-	"github.com/suyuan32/goctls/internal/cobrax"
-	"github.com/suyuan32/goctls/util/ctx"
-	"github.com/suyuan32/goctls/util/pathx"
 )
 
 var (

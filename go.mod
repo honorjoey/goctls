@@ -1,4 +1,4 @@
-module github.com/suyuan32/goctls
+module github.com/honorjoey/goctls
 
 go 1.25.0
 

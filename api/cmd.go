@@ -3,15 +3,15 @@ package api
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/suyuan32/goctls/api/apigen"
-	"github.com/suyuan32/goctls/api/docgen"
-	"github.com/suyuan32/goctls/api/format"
-	"github.com/suyuan32/goctls/api/gogen"
-	"github.com/suyuan32/goctls/api/new"
-	"github.com/suyuan32/goctls/api/validate"
-	"github.com/suyuan32/goctls/config"
-	"github.com/suyuan32/goctls/internal/cobrax"
-	"github.com/suyuan32/goctls/plugin"
+	"github.com/honorjoey/goctls/api/apigen"
+	"github.com/honorjoey/goctls/api/docgen"
+	"github.com/honorjoey/goctls/api/format"
+	"github.com/honorjoey/goctls/api/gogen"
+	"github.com/honorjoey/goctls/api/new"
+	"github.com/honorjoey/goctls/api/validate"
+	"github.com/honorjoey/goctls/config"
+	"github.com/honorjoey/goctls/internal/cobrax"
+	"github.com/honorjoey/goctls/plugin"
 )
 
 var (

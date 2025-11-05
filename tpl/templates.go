@@ -8,14 +8,14 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/zeromicro/go-zero/core/errorx"
 
-	"github.com/suyuan32/goctls/api/apigen"
-	"github.com/suyuan32/goctls/api/gogen"
-	apinew "github.com/suyuan32/goctls/api/new"
-	"github.com/suyuan32/goctls/docker"
-	"github.com/suyuan32/goctls/gateway"
-	"github.com/suyuan32/goctls/kube"
-	rpcgen "github.com/suyuan32/goctls/rpc/generator"
-	"github.com/suyuan32/goctls/util/pathx"
+	"github.com/honorjoey/goctls/api/apigen"
+	"github.com/honorjoey/goctls/api/gogen"
+	apinew "github.com/honorjoey/goctls/api/new"
+	"github.com/honorjoey/goctls/docker"
+	"github.com/honorjoey/goctls/gateway"
+	"github.com/honorjoey/goctls/kube"
+	rpcgen "github.com/honorjoey/goctls/rpc/generator"
+	"github.com/honorjoey/goctls/util/pathx"
 )
 
 const templateParentPath = "/"

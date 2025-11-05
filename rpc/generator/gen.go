@@ -7,17 +7,17 @@ import (
 	"strings"
 
 	"github.com/duke-git/lancet/v2/fileutil"
-	new2 "github.com/suyuan32/goctls/api/new"
-	"github.com/suyuan32/goctls/util/format"
+	new2 "github.com/honorjoey/goctls/api/new"
+	"github.com/honorjoey/goctls/util/format"
 
 	"github.com/gookit/color"
 
-	"github.com/suyuan32/goctls/rpc/execx"
-	proto2 "github.com/suyuan32/goctls/rpc/generator/proto"
-	"github.com/suyuan32/goctls/rpc/parser"
-	"github.com/suyuan32/goctls/util/console"
-	"github.com/suyuan32/goctls/util/ctx"
-	"github.com/suyuan32/goctls/util/pathx"
+	"github.com/honorjoey/goctls/rpc/execx"
+	proto2 "github.com/honorjoey/goctls/rpc/generator/proto"
+	"github.com/honorjoey/goctls/rpc/parser"
+	"github.com/honorjoey/goctls/util/console"
+	"github.com/honorjoey/goctls/util/ctx"
+	"github.com/honorjoey/goctls/util/pathx"
 )
 
 type ZRpcContext struct {

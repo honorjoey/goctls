@@ -19,7 +19,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/suyuan32/goctls/rpc/parser"
+	"github.com/honorjoey/goctls/rpc/parser"
 )
 
 // ConvertEntTypeToProtoType returns prototype from ent type

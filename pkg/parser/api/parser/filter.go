@@ -3,8 +3,8 @@ package parser
 import (
 	"fmt"
 
-	"github.com/suyuan32/goctls/pkg/parser/api/ast"
-	"github.com/suyuan32/goctls/pkg/parser/api/token"
+	"github.com/honorjoey/goctls/pkg/parser/api/ast"
+	"github.com/honorjoey/goctls/pkg/parser/api/token"
 )
 
 type filterBuilder struct {

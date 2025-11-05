@@ -16,10 +16,10 @@
 package cicd
 
 import (
-	"github.com/suyuan32/goctls/cicd/drone"
-	"github.com/suyuan32/goctls/cicd/gitea"
-	"github.com/suyuan32/goctls/cicd/gitlab"
-	"github.com/suyuan32/goctls/internal/cobrax"
+	"github.com/honorjoey/goctls/cicd/drone"
+	"github.com/honorjoey/goctls/cicd/gitea"
+	"github.com/honorjoey/goctls/cicd/gitlab"
+	"github.com/honorjoey/goctls/internal/cobrax"
 )
 
 var (

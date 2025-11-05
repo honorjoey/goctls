@@ -1,18 +1,18 @@
 package extra
 
 import (
-	"github.com/suyuan32/goctls/extra/ent/importschema"
-	"github.com/suyuan32/goctls/extra/ent/localmixin"
-	"github.com/suyuan32/goctls/extra/ent/schema"
-	"github.com/suyuan32/goctls/extra/ent/template"
-	"github.com/suyuan32/goctls/extra/i18n"
-	"github.com/suyuan32/goctls/extra/initlogic"
-	"github.com/suyuan32/goctls/extra/logviewer"
-	"github.com/suyuan32/goctls/extra/makefile"
-	"github.com/suyuan32/goctls/extra/middleware"
-	"github.com/suyuan32/goctls/extra/proto2api"
-	"github.com/suyuan32/goctls/extra/rpcconfgen"
-	"github.com/suyuan32/goctls/internal/cobrax"
+	"github.com/honorjoey/goctls/extra/ent/importschema"
+	"github.com/honorjoey/goctls/extra/ent/localmixin"
+	"github.com/honorjoey/goctls/extra/ent/schema"
+	"github.com/honorjoey/goctls/extra/ent/template"
+	"github.com/honorjoey/goctls/extra/i18n"
+	"github.com/honorjoey/goctls/extra/initlogic"
+	"github.com/honorjoey/goctls/extra/logviewer"
+	"github.com/honorjoey/goctls/extra/makefile"
+	"github.com/honorjoey/goctls/extra/middleware"
+	"github.com/honorjoey/goctls/extra/proto2api"
+	"github.com/honorjoey/goctls/extra/rpcconfgen"
+	"github.com/honorjoey/goctls/internal/cobrax"
 )
 
 var (

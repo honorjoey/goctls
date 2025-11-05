@@ -22,7 +22,7 @@ import (
 
 	"github.com/iancoleman/strcase"
 
-	"github.com/suyuan32/goctls/util"
+	"github.com/honorjoey/goctls/util"
 )
 
 func genApi(g *GenContext) error {

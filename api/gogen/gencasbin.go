@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 
 	"github.com/duke-git/lancet/v2/fileutil"
-	"github.com/suyuan32/goctls/config"
-	"github.com/suyuan32/goctls/rpc/execx"
+	"github.com/honorjoey/goctls/config"
+	"github.com/honorjoey/goctls/rpc/execx"
 )
 
 func genCasbin(dir string, cfg *config.Config, g *GenContext) error {

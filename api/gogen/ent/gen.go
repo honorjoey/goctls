@@ -26,7 +26,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/suyuan32/goctls/rpc/execx"
+	"github.com/honorjoey/goctls/rpc/execx"
 
 	"entgo.io/ent/entc"
 	"entgo.io/ent/entc/gen"
@@ -35,11 +35,11 @@ import (
 	"github.com/iancoleman/strcase"
 	"github.com/zeromicro/go-zero/core/logx"
 
-	"github.com/suyuan32/goctls/rpc/parser"
-	"github.com/suyuan32/goctls/util/ctx"
-	"github.com/suyuan32/goctls/util/entx"
-	"github.com/suyuan32/goctls/util/format"
-	"github.com/suyuan32/goctls/util/pathx"
+	"github.com/honorjoey/goctls/rpc/parser"
+	"github.com/honorjoey/goctls/util/ctx"
+	"github.com/honorjoey/goctls/util/entx"
+	"github.com/honorjoey/goctls/util/format"
+	"github.com/honorjoey/goctls/util/pathx"
 )
 
 const regularPerm = 0o666

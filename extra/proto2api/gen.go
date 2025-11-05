@@ -26,9 +26,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/suyuan32/goctls/rpc/parser"
-	"github.com/suyuan32/goctls/util/format"
-	"github.com/suyuan32/goctls/util/protox"
+	"github.com/honorjoey/goctls/rpc/parser"
+	"github.com/honorjoey/goctls/util/format"
+	"github.com/honorjoey/goctls/util/protox"
 )
 
 var (

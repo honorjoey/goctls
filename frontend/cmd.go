@@ -16,10 +16,10 @@
 package frontend
 
 import (
-	"github.com/suyuan32/goctls/frontend/vben"
-	"github.com/suyuan32/goctls/frontend/vben5"
-	"github.com/suyuan32/goctls/frontend/vben5ele"
-	"github.com/suyuan32/goctls/internal/cobrax"
+	"github.com/honorjoey/goctls/frontend/vben"
+	"github.com/honorjoey/goctls/frontend/vben5"
+	"github.com/honorjoey/goctls/frontend/vben5ele"
+	"github.com/honorjoey/goctls/internal/cobrax"
 )
 
 var (

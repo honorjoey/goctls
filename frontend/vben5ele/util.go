@@ -18,7 +18,7 @@ package vben5ele
 import (
 	"strings"
 
-	"github.com/suyuan32/goctls/api/spec"
+	"github.com/honorjoey/goctls/api/spec"
 )
 
 func ConvertGoTypeToTsType(goType string) string {

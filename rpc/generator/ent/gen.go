@@ -34,12 +34,12 @@ import (
 	"github.com/iancoleman/strcase"
 	"github.com/zeromicro/go-zero/core/logx"
 
-	"github.com/suyuan32/goctls/rpc/parser"
-	"github.com/suyuan32/goctls/util/ctx"
-	"github.com/suyuan32/goctls/util/entx"
-	"github.com/suyuan32/goctls/util/format"
-	"github.com/suyuan32/goctls/util/pathx"
-	"github.com/suyuan32/goctls/util/protox"
+	"github.com/honorjoey/goctls/rpc/parser"
+	"github.com/honorjoey/goctls/util/ctx"
+	"github.com/honorjoey/goctls/util/entx"
+	"github.com/honorjoey/goctls/util/format"
+	"github.com/honorjoey/goctls/util/pathx"
+	"github.com/honorjoey/goctls/util/protox"
 )
 
 const regularPerm = 0o666

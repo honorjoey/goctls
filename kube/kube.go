@@ -7,9 +7,9 @@ import (
 	"text/template"
 
 	"github.com/gookit/color"
+	"github.com/honorjoey/goctls/util"
+	"github.com/honorjoey/goctls/util/pathx"
 	"github.com/spf13/cobra"
-	"github.com/suyuan32/goctls/util"
-	"github.com/suyuan32/goctls/util/pathx"
 )
 
 const (

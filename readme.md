@@ -1,12 +1,15 @@
 # Goctls
 
 ## Goctls is a powerful tools for simple admin to gen codes, based on goctl | Goctls 是一个为 simple admin 设计的代码生成工具, 基于 go zero 官方工具 goctl 开发而成
+Based on https://github.com/honorjoey/goctls
+修改适合单体服务的代码生成
+goctls api ent 增加sub_api_dir参数，表示api子目录，生成的api会放在对应子目录下，即原来的service_name 和 子路径分成两个参数，原service_name 只表示服务名, 其他部分不变
 
 
 ## Install | 安装方法
 
 ```shell
-go install github.com/suyuan32/goctls@latest
+go install github.com/honorjoey/goctls@latest
 ```
 
 ## Features | 特性

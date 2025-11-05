@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/suyuan32/goctls/api/parser/g4/gen/api"
-	"github.com/suyuan32/goctls/util/console"
+	"github.com/honorjoey/goctls/api/parser/g4/gen/api"
+	"github.com/honorjoey/goctls/util/console"
 	"github.com/zeromicro/antlr"
 )
 

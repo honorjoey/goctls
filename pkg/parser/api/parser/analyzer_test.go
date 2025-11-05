@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/suyuan32/goctls/api/spec"
-	"github.com/suyuan32/goctls/pkg/parser/api/assertx"
+	"github.com/honorjoey/goctls/api/spec"
+	"github.com/honorjoey/goctls/pkg/parser/api/assertx"
 )
 
 func Test_Parse(t *testing.T) {

@@ -3,7 +3,7 @@ package generator
 import (
 	"strings"
 
-	"github.com/suyuan32/goctls/rpc/parser"
+	"github.com/honorjoey/goctls/rpc/parser"
 )
 
 func GetGroup(service parser.Service) (data []string) {

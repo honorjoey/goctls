@@ -14,10 +14,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/suyuan32/goctls/api/parser"
-	"github.com/suyuan32/goctls/api/spec"
-	"github.com/suyuan32/goctls/rpc/execx"
-	"github.com/suyuan32/goctls/util/pathx"
+	"github.com/honorjoey/goctls/api/parser"
+	"github.com/honorjoey/goctls/api/spec"
+	"github.com/honorjoey/goctls/rpc/execx"
+	"github.com/honorjoey/goctls/util/pathx"
 )
 
 const pluginArg = "_plugin"

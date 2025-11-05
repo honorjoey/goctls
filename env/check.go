@@ -7,16 +7,16 @@ import (
 	"time"
 
 	"github.com/duke-git/lancet/v2/fileutil"
-	"github.com/suyuan32/goctls/util/pathx"
+	"github.com/honorjoey/goctls/util/pathx"
 
 	"github.com/spf13/cobra"
 
-	"github.com/suyuan32/goctls/pkg/env"
-	"github.com/suyuan32/goctls/pkg/goswagger"
-	"github.com/suyuan32/goctls/pkg/protoc"
-	"github.com/suyuan32/goctls/pkg/protocgengo"
-	"github.com/suyuan32/goctls/pkg/protocgengogrpc"
-	"github.com/suyuan32/goctls/util/console"
+	"github.com/honorjoey/goctls/pkg/env"
+	"github.com/honorjoey/goctls/pkg/goswagger"
+	"github.com/honorjoey/goctls/pkg/protoc"
+	"github.com/honorjoey/goctls/pkg/protocgengo"
+	"github.com/honorjoey/goctls/pkg/protocgengogrpc"
+	"github.com/honorjoey/goctls/util/console"
 )
 
 type bin struct {

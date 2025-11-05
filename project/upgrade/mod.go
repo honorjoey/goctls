@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/suyuan32/goctls/rpc/execx"
-	"github.com/suyuan32/goctls/util/ctx"
+	"github.com/honorjoey/goctls/rpc/execx"
+	"github.com/honorjoey/goctls/util/ctx"
 )
 
 const (

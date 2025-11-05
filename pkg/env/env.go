@@ -8,12 +8,12 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/suyuan32/goctls/internal/version"
-	sortedmap "github.com/suyuan32/goctls/pkg/collection"
-	"github.com/suyuan32/goctls/pkg/protoc"
-	"github.com/suyuan32/goctls/pkg/protocgengo"
-	"github.com/suyuan32/goctls/pkg/protocgengogrpc"
-	"github.com/suyuan32/goctls/util/pathx"
+	"github.com/honorjoey/goctls/internal/version"
+	sortedmap "github.com/honorjoey/goctls/pkg/collection"
+	"github.com/honorjoey/goctls/pkg/protoc"
+	"github.com/honorjoey/goctls/pkg/protocgengo"
+	"github.com/honorjoey/goctls/pkg/protocgengogrpc"
+	"github.com/honorjoey/goctls/util/pathx"
 )
 
 var goctlEnv *sortedmap.SortedMap

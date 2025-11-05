@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/honorjoey/goctls/rpc/generator"
+	"github.com/honorjoey/goctls/util"
+	"github.com/honorjoey/goctls/util/pathx"
 	"github.com/spf13/cobra"
-	"github.com/suyuan32/goctls/rpc/generator"
-	"github.com/suyuan32/goctls/util"
-	"github.com/suyuan32/goctls/util/pathx"
 )
 
 var (

@@ -24,9 +24,9 @@ import (
 	"github.com/iancoleman/strcase"
 	"github.com/spf13/cobra"
 
-	"github.com/suyuan32/goctls/api/parser"
-	"github.com/suyuan32/goctls/api/spec"
-	"github.com/suyuan32/goctls/util/pathx"
+	"github.com/honorjoey/goctls/api/parser"
+	"github.com/honorjoey/goctls/api/spec"
+	"github.com/honorjoey/goctls/util/pathx"
 )
 
 var (

@@ -9,11 +9,11 @@ import (
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 
-	"github.com/suyuan32/goctls/api/spec"
-	"github.com/suyuan32/goctls/config"
-	"github.com/suyuan32/goctls/util"
-	"github.com/suyuan32/goctls/util/format"
-	"github.com/suyuan32/goctls/util/pathx"
+	"github.com/honorjoey/goctls/api/spec"
+	"github.com/honorjoey/goctls/config"
+	"github.com/honorjoey/goctls/util"
+	"github.com/honorjoey/goctls/util/format"
+	"github.com/honorjoey/goctls/util/pathx"
 )
 
 const defaultLogicPackage = "logic"

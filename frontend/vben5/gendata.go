@@ -27,9 +27,9 @@ import (
 
 	"github.com/iancoleman/strcase"
 
-	"github.com/suyuan32/goctls/api/spec"
-	util2 "github.com/suyuan32/goctls/api/util"
-	"github.com/suyuan32/goctls/util"
+	"github.com/honorjoey/goctls/api/spec"
+	util2 "github.com/honorjoey/goctls/api/util"
+	"github.com/honorjoey/goctls/util"
 )
 
 func genData(g *GenContext) error {

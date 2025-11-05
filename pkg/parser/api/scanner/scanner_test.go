@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/honorjoey/goctls/pkg/parser/api/assertx"
+	"github.com/honorjoey/goctls/pkg/parser/api/token"
 	"github.com/stretchr/testify/assert"
-	"github.com/suyuan32/goctls/pkg/parser/api/assertx"
-	"github.com/suyuan32/goctls/pkg/parser/api/token"
 )
 
 func Test_readData(t *testing.T) {

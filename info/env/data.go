@@ -21,7 +21,7 @@ import (
 	"github.com/gookit/color"
 	"github.com/jedib0t/go-pretty/v6/table"
 
-	"github.com/suyuan32/goctls/util/env"
+	"github.com/honorjoey/goctls/util/env"
 )
 
 var envInfo table.Writer
